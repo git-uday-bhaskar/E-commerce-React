@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cards {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+img {
+  height: 220px;
+  width: 250px;
+}
+
+.details {
+  color: white;
+  width: 280px;
+  height: 100px;
+  margin-top: 0px;
+  margin-left: 50px;
+  /* background-color: rgb(117, 231, 248); */
+  /* padding: 30px; */
+  padding-top: 20px;
+}
+.btn {
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: blue;
+  margin-top: 10px;
+}
