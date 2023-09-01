@@ -4,7 +4,6 @@ import "../styles/Amazon.css";
 import Card from "./Card";
 
 export default function Amazon() {
-  console.log(list);
   return (
     <>
       <section>

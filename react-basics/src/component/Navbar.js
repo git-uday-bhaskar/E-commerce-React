@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Navbar.css";
 
-export default function Navbar() {
+export default function Navbar({ size }) {
   return (
     <nav>
       <div className="nav_box">
@@ -10,6 +10,7 @@ export default function Navbar() {
           <span>
             <i className="fas fa-cart-plus"></i>
           </span>
+          <span>{size}</span>
         </div>
       </div>
     </nav>

@@ -7,9 +7,10 @@ import Navbar from "./component/Navbar";
 function App() {
   const [show, setShow] = useState(true);
   const [cart, setCart] = useState([]);
+
   return (
     <>
-      <Navbar />
+      <Navbar size={cart.length} />
       <Cart />
       <Amazon />
     </>
