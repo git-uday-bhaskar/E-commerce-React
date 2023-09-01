@@ -11,8 +11,8 @@ function App() {
   return (
     <>
       <Navbar size={cart.length} />
-      <Cart />
-      <Amazon />
+      <Amazon cart={cart} setCart={setCart} />
+      <cart cart={cart} setCart={setCart} />
     </>
   );
 }

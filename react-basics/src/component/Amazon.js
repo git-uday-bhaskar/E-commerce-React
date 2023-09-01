@@ -3,12 +3,12 @@ import list from "../data";
 import "../styles/Amazon.css";
 import Card from "./Card";
 
-export default function Amazon() {
+export default function Amazon(props) {
   return (
     <>
       <section>
         {list.map((item) => (
-          <Card item={item} key={item.id}></Card>
+          <Card props={props} item={item} key={item.id}></Card>
         ))}
       </section>
     </>

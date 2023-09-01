@@ -10,7 +10,7 @@ export default function Navbar({ size }) {
           <span>
             <i className="fas fa-cart-plus"></i>
           </span>
-          <span>{size}</span>
+          <span className="size">{size}</span>
         </div>
       </div>
     </nav>
